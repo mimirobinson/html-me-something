@@ -1,0 +1,51 @@
+html {
+    font-size: 14px;
+    line-height: 1.2;
+    background-color: #FFF5E7;
+    font-family: Helvetica;
+}
+body {
+    font-size: 1rem;
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    font-weight:bold;
+    color: #3583B2;
+}
+a:hover {
+    color: #3FB6FF;
+}
+a:visited {
+    color: #B27B2E;
+}
+h1, h2, h3, h4 {
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #B27B2E;
+}
+article {
+    font-size: 1rem;
+}
+article h2 {
+    font-size: 1.3rem;
+    color: #3583B2;
+}
+.article-image, .article-image-h, .article-video{
+    display: inline-block;
+    height: 40%;
+    width: 40%;
+    padding: 5px;
+    border: 2px solid #3FB6FF;
+
+}
+#article-footer {
+    margin: 10px;
+    height: 30px;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #59C0FF;
+}
